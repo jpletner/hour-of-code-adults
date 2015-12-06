@@ -91,12 +91,12 @@ If Statements
 
 Here's a program that asks the user for their name and does one of two things:
 
-1. If the name is `Trey`, an alert will say that we have the same name.
-2. If the name is not `Trey`, an alert will greet the user.
+1. If the name is `Jenny`, an alert will say that we have the same name.
+2. If the name is not `Jenny`, an alert will greet the user.
 
 ```js
 var name = prompt("What is your name?");
-if (name === "Trey") {
+if (name === "Jenny") {
     alert("Hey that's my name too!");
 } else {
     alert("Hi " + name + "!");
@@ -105,7 +105,7 @@ if (name === "Trey") {
 
 The curly braces here denote a block of code.  We put curly braces after the `if` and `else` statements so JavaScript knows what it should do in each case.  JavaScript doesn't care about indentation; we just indent to make our code more readable.
 
-The thing inside the parenthesis next to our `if` statement is called a condition. We can use three equals signs to compare our `name` variable to the string `"Trey"` in the condition.  If this statement is true, the first code block (inside the curly braces) will be run, otherwise the code block after the `else` statement will be run.
+The thing inside the parenthesis next to our `if` statement is called a condition. We can use three equals signs to compare our `name` variable to the string `"Jenny"` in the condition.  If this statement is true, the first code block (inside the curly braces) will be run, otherwise the code block after the `else` statement will be run.
 
 **Teacher note**: If less than 30 minutes remaining, do world domination. Otherwise, skip this one.
 
