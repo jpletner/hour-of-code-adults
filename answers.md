@@ -32,6 +32,7 @@ var madlib =
 
 // Make a pop-up for the final story. You can use \n to go to the next line.
 alert(madlib);
+```
 
 World Domination
 ----------------
