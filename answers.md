@@ -95,7 +95,7 @@ if (random_num === 3) {
     alert("Absolutely");
 }
 
-// ANOTHER WAY:
+// A DRYER WAY:
 
 if (random_num === 0) {
     alert("Yes");
